@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Promedio</title>
+    <link rel="stylesheet" href="css/promedio.css">
+</head>
+<body>
+<script type="text/javascript">
+    alert("Bienvenido...!");
+r=parseInt(prompt("Cantidad de Cursos que desea promediar"));
+n=0;
+promedio=0;
+
+for (i=0; i<r ; i++) {
+    n+=parseInt(prompt("Calificación del Curso"))
+    promedio=n/r
+}
+alert("Tu promedio es" + promedio) 
+parseInt(promedio);
+if(promedio>=13)
+{document.write('Su promedio es de '  +promedio+ ', Usted Aprobó, Felicidades!! ');
+}else
+{
+    document.write('Su promedio es de '+promedio+',Usted Reprobó, Lo Sentimos!! ');
+}
+    
+</script>    
+</body>
+</html>
